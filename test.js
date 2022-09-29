@@ -4,3 +4,4 @@ const div = document.createElement("div");
 div.innerHTML = `
 <h1 style="color: red; font-weight: red; font-size: 6em">You got hacked!!111!!!111!</h1>
 `
+document.body.appendChild(div)
